@@ -1,40 +1,46 @@
 ---
 aip: <to be assigned>
-title: <AIP title>
+title: <Adding mUSD on Aave>
 status: WIP
-author: FirstName LastName (@GitHubUsername)
-shortDescription: <Short description of AIP>
-discussions: <Discord Channel or Github issue>
-created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
-updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A
-requires (*optional): <AIP number(s)>
+author: Fauve Altman (@ctrlaltf), Alex Scott (@alsco77)
+shortDescription: <Aave governance proposal to enable mUSD as a base asset>
+discussions: <https://governance.aave.com/t/arc-listing-proposal-of-mstable-assets-musd-and-imusd/2745>
+created: <date created on, in ISO 8601 (2021-03-03) format>
 ---
-
-This is the template for AIPs.
-
-Note that an AIP number will be assigned by an editor. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `AIP-draft_title_abbrev.md`.
-
-The title should be 44 characters or less.
 
 ## Simple Summary
 
-If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the AIP.
+mStable is building autonomous and non-custodial stablecoin infrastructure, and leverages lending income with trading fees to produce higher yielding, more capital efficient assets. It was created to tackle three major issues facing stablecoins today:
+
+- The fragmentation of same-peg assets
+- The lack of native yield
+- The lack of protection against permanent capital loss
 
 ## Abstract
 
-A short (~200 word) description of the technical issue being addressed.
+Add mUSD to AAVE V2 Market.
 
 ## Motivation
 
-The motivation is critical for AIPs that want to change Aave. It should clearly explain why the existing protocol specification is inadequate to address the problem that the AIP solves. AIP submissions without sufficient motivation may be rejected outright.
+Pave the way for future mStable assets on Aave: We have just released mBTC, and intend to release other stablecoins such as mEUR and mETH in future. mUSD and imUSD integration would set the stage for further collaboration between mStable and Aave’s ecosystems in future should that be desirable for the Aavengers.
+
+Support community-led projects.
 
 ## Specification
 
-The technical specification should describe the syntax and semantics of any new feature.
+mUSD is a diversified meta-stablecoin that tracks the US dollar. It is available and liquid on Curve and Balancer and is increasingly being integrated across the broader DeFi ecosystem: 1inch, ARCx, Rari Capital, OpenDAO’s Open Market and many more.
+
+mStable is set to create and incentivise feeder pools for mUSD, which are 50/50 pools composed of [fAsset, mAsset], e.g. [bUSD, mUSD]. These pools are expected to be deeply liquid, and the assets in which can and will be lent out wherever possible to increase pool APY. Which an active market for mUSD, there is potentially 10’s of millions of liquidity waiting to be deposited here in the short term.
+
+mStable has been an avid liquidity provider to Aave since Aave was at $5m TVL. Over the course of the past 6 months, assets in the mUSD basket have been lent on Aave markets. Adding mUSD as a market on Aave will only have a positive effect for mUSD overall TVL, and thus will provide not only more mUSD deposited through the SAVE contract (as mentioned by Fauve above), but also from the underlying mUSD collateral (USDT, sUSD and TUSD).
+
+It is also worth considering how an efficient market could cause more positive circular effects with the ability to borrow mUSD at a reasonably low rate through Aave, and the opportunity to earn high yield through deposits into mUSD’s savings account.
+
 
 ## Rationale
 
-The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
+Diversification of stablecoin assets: mUSD is a meta-stablecoin with risk minimisation characteristics and censorship resistance. Adding mUSD would decrease aggregate risk in the Aave ecosystem
+Once mUSD support is live, ~7M mUSD could be deployed from mStable’s Save v2 contract to seed the market for borrowing, increasing Aave’s TVL.
 
 ## Test Cases
 
