@@ -22,7 +22,7 @@ Add mUSD to AAVE V2 Market.
 
 ## Motivation
 
-Pave the way for future mStable assets on Aave: We have just released mBTC, and intend to release other stablecoins such as mEUR and mETH in future. mUSD and imUSD integration would set the stage for further collaboration between mStable and Aave’s ecosystems in future should that be desirable for the Aavengers.
+Pave the way for future mStable assets on Aave: We have just released mBTC, and intend to release other stablecoins such as mEUR and mETH in future. mUSD integration would set the stage for further collaboration between mStable and Aave’s ecosystems in future should that be desirable for the Aavengers.
 
 Support community-led projects.
 
