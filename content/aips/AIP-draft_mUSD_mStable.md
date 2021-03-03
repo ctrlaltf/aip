@@ -6,6 +6,8 @@ author: Fauve Altman (@ctrlaltf), Alex Scott (@alsco77)
 shortDescription: Aave governance proposal to add mUSD as a base asset
 discussions: https://governance.aave.com/t/arc-listing-proposal-of-mstable-assets-musd-and-imusd/2745
 created: 2021-03-03
+updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A
+requires (*optional): <AIP number(s)>
 ---
 
 ## Simple Summary
