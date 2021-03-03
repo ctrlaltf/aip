@@ -3,7 +3,7 @@ aip: <to be assigned>
 title: Adding mUSD on Aave
 status: WIP
 author: Fauve Altman (@ctrlaltf), Alex Scott (@alsco77)
-shortDescription: <Aave governance proposal to enable mUSD as a base asset>
+shortDescription: Aave governance proposal to add mUSD as a base asset
 discussions: https://governance.aave.com/t/arc-listing-proposal-of-mstable-assets-musd-and-imusd/2745
 created: 2021-03-03
 ---
