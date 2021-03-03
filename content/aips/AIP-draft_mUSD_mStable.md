@@ -5,7 +5,7 @@ status: WIP
 author: Fauve Altman (@ctrlaltf), Alex Scott (@alsco77)
 shortDescription: <Aave governance proposal to enable mUSD as a base asset>
 discussions: <https://governance.aave.com/t/arc-listing-proposal-of-mstable-assets-musd-and-imusd/2745>
-created: <date created on, in ISO 8601 (2021-03-03) format>
+created: <(2021-03-03)>
 ---
 
 ## Simple Summary
